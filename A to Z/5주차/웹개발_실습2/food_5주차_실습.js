@@ -64,7 +64,7 @@ querySnapshot.forEach((doc) => {
                     <div class="card-body">
                         <h4 class="card-title">${title}</h4>
                         <p class="card-text">${comment}</p>
-                        <p>${"⭐".repeat(star)}</p>
+                        <p>${star}</p>
                         <button class="card-button">주문하기</button>
                     </div>
                 </div>
